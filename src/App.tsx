@@ -5,7 +5,7 @@ function App() {
   
 
   return (
-   <div>This will be my first self made project!</div>;
+   <div>This will be my first self made project!</div>
   )
 }
 
