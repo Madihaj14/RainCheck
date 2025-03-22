@@ -1,10 +1,14 @@
-import { Button } from "@/components/ui/button"
+import { BrowserRouter } from "react-router-dom";
+import "./App.css"
+import Layout from "./components/layout";
+// Removed unused Button import
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-svh">
-      <Button>Click me</Button>
-    </div>
+    <BrowserRouter>
+      <Layout>Hello</Layout>
+
+    </BrowserRouter>
   )
 }
 
